@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, p {
+    text-align: center;
+}
+
+body {
+    background-image: url(../images/kamado-nezuko-kimetsu-no-yaiba-red-eyes-illustration-fan-art-hd-wallpaper-preview.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#login {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 250px;
+    height: 500px;
+    padding: 20px;
+
+    /*PARA CENTRALIZAR MEU SECTION NO MEIO DA TELA */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section#login div#formulario form input#ilogin {
+    margin-bottom: 15px;
+}
+
+section#login div#formulario form button {
+    background-color: rgba(240, 248, 255, 0.63);
+    border: 1px solid black;
+    width: 80px;
+    margin: 25px 10px 0px 0px;
+}
+
+section#login div#formulario form button a {
+    text-decoration: none;
+    color: black;
+}
