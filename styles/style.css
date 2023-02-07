@@ -10,9 +10,16 @@ h1, p {
 }
 
 body {
+    width: 100vw;
+    height: 100vh;
     background-image: url(../images/kamado-nezuko-kimetsu-no-yaiba-red-eyes-illustration-fan-art-hd-wallpaper-preview.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
 }
 
 section#login {
