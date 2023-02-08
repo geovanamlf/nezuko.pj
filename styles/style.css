@@ -11,91 +11,86 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    text-align: center;
-    text-shadow: 2px 2px 2px rgba(255, 0, 0, 0.486);
-    font-family: 'demon', sans-serif;
-    font-size: 2em;
-}
-
-h2 {
-    text-align: left;
-    background-color: aliceblue;
-    border-radius: 10px;
-    margin: 13px 12px 0px 0px;
-    font-size: medium;
-}
-
-p {
-    text-align: center;
-    font-size: 1.2em;
-}
-
 body {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../images/kamado-nezuko-kimetsu-no-yaiba-red-eyes-illustration-fan-art-hd-wallpaper-preview.jpg); 
+    background-image: url(../images/kamado-nezuko-kimetsu-no-yaiba-red-eyes-illustration-fan-art-hd-wallpaper-preview.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-main {
-    width: 100vw;
+body, html {
+    background-color: green;
     height: 100vh;
+    width: 100vw;
 }
 
-section#login {
-    background-color: rgba(255, 255, 255, 0.616);
-    border: 1px solid black;
-    box-shadow: 2px 2px 15px rgba(255, 0, 0, 0.486);
-    border-radius: 20px;
-    width: 290px;
-    height: 500px;
-    padding: 20px;
+section {
+    background-color: rgba(255, 255, 255, 0.445);
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(255, 0, 0, 0.411);
+    padding: 10px;
+    width: 400px;
+    height: 450px;
 
-    /*PARA CENTRALIZAR MEU SECTION NO MEIO DA TELA */
+    /* POSICIONANDO MEU FORM NO MEIO DA TELA */
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
 }
 
-section#login div#formulario form input#ilogin {
-    box-shadow: 1px 1px 10px rgba(255, 0, 0, 0.301);
-    margin-bottom: 15px;
+section h1 {
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: 0px 4px 2px rgba(138, 31, 31, 0.836);
+    font-family: 'demon', sans-serif;
+    font-weight: lighter;
+    font-size: 4em;
+}
+
+div#formulario {
     border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 0px 10px 0px;
+    width: 300px;
+    margin: auto;  
 }
 
-section#login div#formulario form input#ipassword {
-    border: 1px solid black;
-    box-shadow: 1px 1px 10px rgba(255, 0, 0, 0.301);
+div#formulario form input#iemail {
+    margin: 10px;
+    padding: 2px;
+    box-shadow: 1px 1px 5px rgb(255, 9, 9);
 }
 
-section#login div#formulario form button {
-    background-color: rgba(240, 248, 255, 0.63);
-    border: 1px solid black;
-    box-shadow: 1px 1px 10px rgba(255, 0, 0, 0.301);
-    width: 80px;
-    margin: 25px 10px 0px 0px;
-    padding: 3px;
-
+div#formulario form input#ipassword {
+    margin: 10px;
+    padding: 2px;
+    box-shadow: 1px 1px 5px rgb(255, 9, 9);
 }
 
-section#login div#formulario form button a {
-    text-decoration: none;
-    color: black;
+label {
+    font-weight: bold;
+    text-shadow: 0px 2px 2px rgba(138, 31, 31, 0.836);
 }
 
-div#social {
-    background-color: rgba(240, 248, 255, 0.705);
-    border-radius: 10px;
-    box-shadow: 1px 1px 10px rgba(255, 0, 0, 0.301);
-    margin-top: 200px;
-    padding: 10px;
+section p#p1 {
+    text-align: center;
+    text-shadow: 0px 2px 2px rgba(138, 31, 31, 0.836);
+    font-size: 1.2em;
 }
 
-div#img {
-    width: 190px;
-    height: 115px;
-    margin: 140px 0px -0px -55px;
+section p#p2 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 15px;
+    text-align: justify;
+    text-shadow: 0px 2px 2px rgba(138, 31, 31, 0.836);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subt {
+    box-shadow: 0px 2px 7px rgba(255, 0, 0, 0.692);
+    margin: 5px 5px 0px 10px;
+    padding: 2px;
 }

@@ -4,36 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style.css" media="all">
     <link rel="stylesheet" href="styles/media-query.css">
-    <title>Login</title>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <title>Nezuko Kamado</title>
 </head>
 <body>
-    <main>
-        <section id="login">
-            <div id="formulario">
-                <h1>Welcome again!</h1>
-<br>
-                <p>Enter to immerse yourself in the world of Demon Slayer</p>
-<br>
-<br>           
-                <form action="cadastro.php" method="post" autocomplete="on">
-                    <input type="email" name="login" id="ilogin" autocomplete="email">
-                    <label for="ilogin">Login</label>
+    <section>
+        <h1>Welcome!</h1>       
+        <div id="formulario">
+            <form action="cadastro.php" method="post" autocomplete="on">
+                <p id="p1">Enter to immerse yourself in the world of Demon Slayer</p>
 
-                    <input type="password" name="password" id="ipassword" autocomplete="current-password">
-                    <label for="ipassword">Password</label>
+                <input type="email" name="email" id="iemail" required autocomplete="email" placeholder="Type your email here">
+                <label for="iemail">Login</label>
 
-                    <button><a href="#">Enter</a></button>
-                    <button><a href="#">Register</a></button>
-                </form>
-            </div>
+                <input type="password" name="password" id="ipassword" required autocomplete="current-password" placeholder="Type your password here">
+                <label for="ipassword">Password</label>
 
-            <div id="img">
-                <img src="images/Demon-Slayer-Logo.png" width="200px" alt="Demon Slayer">
-            </div>
-                <h2>email: geovanamlfdev@gmail.com</h2>
-        </section>
-    </main>
+                <input class="subt" type="submit" value="Submit">
+                <input class="subt" type="reset" value="Sign-in">
+        </div>
+            <p id="p2">It is a Japanese manga series written and illustrated by Koyoharu Gotōge, and it is about Tanjiro Kamado, a young boy who becomes a demon slayer after his family is slaughtered and his younger sister Nezuko is turned into a demon.</p>
+        </form>
+    </section>
 </body>
 </html>
