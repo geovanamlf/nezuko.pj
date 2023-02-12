@@ -1,8 +1,18 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 419px) {
+    section {
+        border-radius: 10px;
+        padding: 0px;
+        width: fit-content;
+        height: fit-content;
+    }
+}
+
+@media screen and (min-width: 890px) {
     body {
-        background-color: black;
-        background-image: none;
+        background-image: url(../images/hasribckg.png);
+        background-position: center;
+        background-repeat: no-repeat;
     }
 }
