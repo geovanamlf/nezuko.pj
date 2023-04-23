@@ -15,6 +15,10 @@ header {
     position: relative;
 }
 
+body {
+    background-color: rgb(29, 28, 28);
+}
+
 div#demonlogo img {
     width: 260px;
     position: absolute;
@@ -50,20 +54,20 @@ div#tele {
     margin-left: 13px;
 }
 
+#yt:hover, #twitter:hover, #insta:hover, #tele:hover {
+    transform: scale(1.2);
+}
+
 .svg-inline--fa {
     color: black;
     width: 18px;
     display: inline-block;
 }
 
-span {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
 main {
-    background-color: aliceblue;
+    background-color: white;
+    width: 600px;
+    margin: auto;
 }
 
 h1 {
@@ -76,8 +80,17 @@ p {
     text-indent: 20px;
 }
 
+img {
+    border-radius: 15px;
+}
 
+li {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
 
-
-
+#imgnezuko, #imgshinobu, #imgtanjiro, #imginosuke, #imgkanao, #imgmitsuri, #imgakaza {
+    text-align: center;
+}
 
